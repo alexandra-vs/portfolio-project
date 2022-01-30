@@ -35,7 +35,6 @@ p {
   font-family: var(--secondary-font);
 }
 
-.ml-auto .dropdown-menu {
-  left: auto !important;
-  right: 0px;
+.justify-content-end {
+  justify-content: flex-end !important;
 }
