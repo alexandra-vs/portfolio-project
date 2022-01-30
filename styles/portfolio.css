@@ -7,6 +7,8 @@ font-family: 'Vollkorn', serif; */
 :root {
   --primary-font: "Volkorn", serif;
   --secondary-font: "IBM Plex Sans Thai Looped", sans-serif;
+  --primary-color: #557a95;
+  --secondary-color: #5d5c61;
 }
 
 .navbar {
@@ -22,9 +24,16 @@ font-family: 'Vollkorn', serif; */
   font-size: 35px;
 }
 
+.nav-item {
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  padding: 15px;
+}
+
 .homepage-hero {
   text-align: center;
   padding: 160px 20px;
+  background-color: var(--primary-color);
 }
 
 h1,
@@ -33,22 +42,22 @@ h3 {
   margin: 0;
 }
 
-h1 {
+.hh-heading {
   display: block;
   font-family: var(--primary-font);
+  color: white;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 100px;
+  padding: 40px 20px 40px 20px;
 }
 
-h3 {
+.hh-subheading {
   display: block;
-  font-size: 24px;
-  opacity: 0.7;
-  line-height: 1.2;
-}
-
-p {
   font-family: var(--secondary-font);
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  line-height: 1.5;
 }
 
 @media (max-width: 991px) {
