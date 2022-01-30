@@ -1,3 +1,41 @@
-body {
-  background-color: white;
+/*font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
+font-family: 'PT Mono', monospace;
+font-family: 'Rufina', serif;
+font-family: 'Vollkorn', serif; */
+
+:root {
+  --primary-font: "Volkorn", serif;
+  --secondary-font: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  display: block;
+  font-family: var(--primary-font);
+  text-align: center;
+  font-weight: 900;
+  font-size: 96px;
+}
+
+h3 {
+  display: block;
+  font-size: 24px;
+  opacity: 0.7;
+  line-height: 1.2;
+  text-align: center;
+}
+
+p {
+  font-family: var(--secondary-font);
+}
+
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
 }
