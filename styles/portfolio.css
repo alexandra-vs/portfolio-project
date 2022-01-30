@@ -9,6 +9,24 @@ font-family: 'Vollkorn', serif; */
   --secondary-font: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
+.navbar {
+  background: transparent !important;
+}
+
+.external-links {
+  font-size: 35px;
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+.homepage-hero {
+  text-align: center;
+  padding: 160px 20px;
+}
+
 h1,
 h2,
 h3 {
@@ -18,7 +36,6 @@ h3 {
 h1 {
   display: block;
   font-family: var(--primary-font);
-  text-align: center;
   font-weight: 900;
   font-size: 96px;
 }
@@ -28,13 +45,18 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
   line-height: 1.2;
-  text-align: center;
 }
 
 p {
   font-family: var(--secondary-font);
 }
 
-.justify-content-end {
-  justify-content: flex-end !important;
+@media (max-width: 991px) {
+  .external-links {
+    text-align: left;
+  }
+
+  .homepage-hero {
+    padding: 180px 20px;
+  }
 }
