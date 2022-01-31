@@ -3,6 +3,9 @@
   --secondary-font: "IBM Plex Sans Thai Looped", sans-serif;
   --primary-color: #557a95;
   --secondary-color: #5d5c61;
+  --tertiary-color: #b0a295;
+  --quaternary-color: #938e94;
+  --quinary-color: #7395ae;
 }
 
 .navbar {
@@ -45,6 +48,14 @@
   color: white;
   opacity: 0.7;
   line-height: 1.5;
+}
+.btn-branding {
+  border: var(--tertiary-color) solid 2px;
+  border-radius: 4px;
+  background-color: var(--tertiary-color);
+  color: white;
+  padding: 10px;
+  font-family: var(--secondary-font);
 }
 @media (max-width: 576px) {
   .homepage-hero {
