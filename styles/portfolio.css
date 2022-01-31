@@ -79,7 +79,7 @@
 .about-section {
   font-family: var(--secondary-font);
   background-color: var(--tertiary-color);
-  padding: 160px 20px;
+  padding: 120px 20px;
   max-width: 100%;
 }
 
@@ -87,8 +87,10 @@
   margin: 40px;
 }
 
-.tag {
-  font-size: 50px;
+.me-logo {
+  justify-content: center !important;
+  font-family: var(--primary-font);
+  font-size: 30px;
   color: white;
   opacity: 0.8;
 }
@@ -107,7 +109,7 @@
 
 @media (max-width: 576px) {
   .homepage-hero {
-    padding-top: 180px;
+    padding-top: 60px;
     padding-bottom: 90px;
   }
   .hh-heading {
@@ -121,5 +123,38 @@
   }
   .project-title {
     margin-top: 10px;
+    text-align: center;
+  }
+  .project-description,
+  .icons {
+    text-align: center;
+  }
+
+  .see-project {
+    width: 100%;
+  }
+
+  .about-section {
+    padding: 90px 20px;
+  }
+
+  .about-section-content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .img-me {
+    padding: 0 auto;
+    margin: 0;
+  }
+  .external-links {
+    padding: 0px;
+    margin: 0;
+  }
+  .fab {
+    font-size: 20px;
+  }
+  .me-logo {
+    font-size: 15px;
   }
 }
