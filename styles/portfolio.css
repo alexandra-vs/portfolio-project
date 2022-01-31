@@ -25,7 +25,7 @@
   font-size: 35px;
   color: black;
 }
-
+/*Homepage */
 .homepage-hero {
   text-align: center;
   padding: 160px 20px;
@@ -76,11 +76,24 @@
   margin: 20px;
 }
 
+/*About */
+.container-fluid {
+  padding: 0;
+}
+
+.about-me-row {
+  background-color: var(--tertiary-color);
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .about-section {
   font-family: var(--secondary-font);
-  background-color: var(--tertiary-color);
+  text-align: center;
   padding: 120px 20px;
-  max-width: 100%;
+  color: white;
+  opacity: 0.7;
 }
 
 .me-logo {
@@ -102,6 +115,22 @@
 .me {
   max-width: 100%;
   height: auto;
+}
+
+/*Portfolio */
+.portfolio-container {
+  text-align: center;
+  padding: 160px 20px;
+  background-color: var(--quaternary-color);
+}
+
+.p-heading {
+  display: block;
+  font-family: var(--primary-font);
+  color: white;
+  font-weight: 900;
+  font-size: 100px;
+  padding: 40px 20px 40px 20px;
 }
 
 @media (max-width: 576px) {
@@ -132,18 +161,12 @@
   }
 
   .about-section {
-    padding: 90px 20px;
-  }
-
-  .about-section-content {
-    margin: 0;
-    padding: 0;
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
     text-align: center;
   }
-  .img-me {
-    padding: 0 auto;
-    margin: 0;
-  }
+
   .external-links {
     padding: 0px;
     margin: 0;
@@ -151,7 +174,8 @@
   .fab {
     font-size: 20px;
   }
-  .me-logo {
-    font-size: 15px;
+  .me-logo,
+  h1 {
+    font-size: 20px;
   }
 }
