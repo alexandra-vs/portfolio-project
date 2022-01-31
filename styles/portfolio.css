@@ -76,6 +76,35 @@
   margin: 20px;
 }
 
+.about-section {
+  font-family: var(--secondary-font);
+  background-color: var(--tertiary-color);
+  padding: 160px 20px;
+  max-width: 100%;
+}
+
+.about-me-row {
+  margin: 40px;
+}
+
+.tag {
+  font-size: 50px;
+  color: white;
+  opacity: 0.8;
+}
+.about-section-content {
+  margin: 30px;
+  padding: 40px;
+  color: white;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+.me {
+  max-width: 100%;
+  height: auto;
+  padding: 40px;
+}
+
 @media (max-width: 576px) {
   .homepage-hero {
     padding-top: 180px;
