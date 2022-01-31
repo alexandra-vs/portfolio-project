@@ -68,6 +68,10 @@
   font-family: var(--secondary-font);
 }
 
+.icons {
+  font-size: 50px;
+}
+
 .project {
   margin: 20px;
 }
