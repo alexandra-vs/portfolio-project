@@ -1,6 +1,8 @@
 :root {
+  /*Fonts*/
   --primary-font: "Volkorn", serif;
   --secondary-font: "IBM Plex Sans Thai Looped", sans-serif;
+  /*Colors*/
   --primary-color: #557a95;
   --secondary-color: #5d5c61;
   --tertiary-color: #b0a295;
@@ -8,6 +10,12 @@
   --quinary-color: #7395ae;
 }
 
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+/*Navbar */
 .navbar {
   background: transparent !important;
   font-family: var(--secondary-font);
@@ -21,7 +29,7 @@
   font-size: 35px;
   color: black;
 }
-/*Homepage */
+/*Homepage - including h1, h2 and button roots*/
 .homepage-hero {
   text-align: center;
   padding: 160px 20px;
@@ -45,14 +53,17 @@
   opacity: 0.7;
   line-height: 1.5;
 }
-.btn-branding,
-.btn-branding-outline {
+.btn-branding {
   border: var(--secondary-color) solid 2px;
   border-radius: 4px;
   background-color: var(--secondary-color);
   color: white;
   padding: 10px;
+
   font-family: var(--secondary-font);
+}
+.project {
+  margin: 20px;
 }
 .project-title {
   font-family: var(--primary-font);
@@ -68,14 +79,7 @@
   font-size: 50px;
 }
 
-.project {
-  margin: 20px;
-}
-
 /*About */
-.container-fluid {
-  padding: 0;
-}
 
 .about-me-row {
   background-color: var(--tertiary-color);
@@ -112,6 +116,8 @@
   }
   .hh-heading {
     font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .hh-subheading {
     font-size: 20px;
@@ -128,7 +134,7 @@
     text-align: center;
   }
 
-  .see-project {
+  .btn-branding {
     width: 100%;
   }
 
@@ -137,10 +143,6 @@
     margin: 0;
   }
   .fab {
-    font-size: 20px;
-  }
-  .me-logo,
-  h1 {
     font-size: 20px;
   }
 }
