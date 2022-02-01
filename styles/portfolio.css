@@ -10,13 +10,9 @@
 
 .navbar {
   background: transparent !important;
-}
-.nav-link {
   font-family: var(--secondary-font);
-}
-
-.external-links {
-  font-size: 35px;
+  font-size: 15px;
+  font-weight: bold;
   padding: 15px;
   color: black;
 }
