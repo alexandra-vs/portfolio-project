@@ -81,7 +81,7 @@
 
 /*About */
 
-.about-me-row {
+.about-container {
   background-color: var(--tertiary-color);
   max-width: 100%;
   margin: 0;
@@ -108,6 +108,8 @@
   padding: 160px 20px;
   background-color: var(--quaternary-color);
 }
+
+/*Contact */
 
 @media (max-width: 576px) {
   .homepage-hero {
