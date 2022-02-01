@@ -110,6 +110,11 @@
 }
 
 /*Contact */
+.contact-container {
+  background-color: var(--quinary-color);
+  padding: 160px 20px;
+  text-align: center;
+}
 
 @media (max-width: 576px) {
   .homepage-hero {
