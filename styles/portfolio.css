@@ -116,6 +116,14 @@
   text-align: center;
 }
 
+.contact-links a,
+h4 {
+  font-family: var(--secondary-font);
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+}
+
 @media (max-width: 576px) {
   .homepage-hero {
     padding-top: 60px;
