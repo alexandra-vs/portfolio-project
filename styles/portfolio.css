@@ -154,6 +154,8 @@ footer .social-links a:hover {
   background: var(--primary-color);
 }
 
+/* Underline effect */
+
 @media (max-width: 576px) {
   .homepage-hero,
   .about-container,
