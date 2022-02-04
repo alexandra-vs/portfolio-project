@@ -237,8 +237,13 @@ footer .pp-social-links a:hover {
   .about-container,
   .portfolio-container,
   .contact-container {
-    padding: 100px 20px 40px 20px;
+    padding: 30px 20px 40px 20px;
   }
+
+  .navbar {
+    width: 100%;
+  }
+
   .hh-heading {
     font-size: 50px;
     padding-left: 30px;
@@ -256,6 +261,7 @@ footer .pp-social-links a:hover {
     margin-top: 10px;
     text-align: center;
   }
+
   .project-description,
   .icons {
     text-align: center;
