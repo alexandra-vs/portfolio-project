@@ -32,7 +32,11 @@
 
     <link rel="stylesheet" href="/styles/portfolio.css" />
 
-    <title>Alexandra Velasco-Svoboda</title>
+    <title>Alexandra Velasco-Svoboda's Portfolio</title>
+    <meta
+      name="description"
+      content="Alexandra is a front-end engineer based in Melbourne and Berlin - see her portfolio"
+    />
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <div class="external-links">
@@ -40,6 +44,8 @@
             class="navbar-brand hover-link-top"
             href="https://github.com/alexandra-vs"
             target="_blank"
+            title="GitHub Profile"
+            alt="GitHub Profile"
           >
             <i class="fab fa-github"></i>
           </a>
@@ -47,6 +53,8 @@
             class="navbar-brand hover-link-top"
             href="https://linkedin.com/in/alexandra-velasco-svoboda"
             target="_blank"
+            title="LinkedIn Profile"
+            alt="LinkedIn Profile"
           >
             <i class="fab fa-linkedin"></i>
           </a>
@@ -69,20 +77,35 @@
         >
           <ul class="navbar-nav text-end">
             <li class="nav-item">
-              <a class="nav-link hover-link-black" aria-current="page" href="/"
+              <a
+                class="nav-link hover-link-black"
+                aria-current="page"
+                title="Homepage"
+                href="/"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-link-black" href="/about.html">About</a>
+              <a
+                class="nav-link hover-link-black"
+                title="About Alexandra"
+                href="/about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-link-black active" href="/work.html"
+              <a
+                class="nav-link hover-link-black active"
+                title="Alexandra's Portfolio"
+                href="/work.html"
                 >Work</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-link-black" href="/contact.html"
+              <a
+                class="nav-link hover-link-black"
+                title="Contact Alexandra"
+                href="/contact.html"
                 >Contact</a
               >
             </li>
@@ -102,6 +125,7 @@
           <a
             href="/contact.html"
             class="btn btn-branding hover-link button mt-4"
+            title="Contact Alexandra"
             >Work with me!!!</a
           >
         </div>
@@ -113,10 +137,10 @@
               <h2 class="mb-2 project-title">Weather Application</h2>
 
               <div class="icons">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-bootstrap"></i>
-                <i class="fab fa-js-square"></i>
+                <i class="fab fa-html5" title="HTML"></i>
+                <i class="fab fa-css3-alt" title="CSS"></i>
+                <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                <i class="fab fa-js-square" title="Javascript"></i>
               </div>
               <p class="mb-5 text-muted project-description">
                 An application that provides you with real-time information
@@ -130,6 +154,7 @@
                 href="https://sad-lichterman-6afbab.netlify.app/"
                 class="btn btn-branding hover-link button"
                 target="_blank"
+                title="Weather App hosted on Netlify"
                 >See project
               </a>
             </div>
@@ -138,6 +163,7 @@
             <img
               src="/images/weatherapp.jpg"
               class="img-fluid rounded shadow p-2 border"
+              alt="Weather App Preview"
             />
           </div>
         </div>
@@ -146,6 +172,7 @@
             <img
               src="/images/website.jpg"
               class="img-fluid rounded shadow p-2 border"
+              alt="Current Website Preview"
             />
           </div>
           <div class="col">
@@ -153,14 +180,14 @@
               <h2 class="mb-2 project-title">This website</h2>
 
               <div class="icons">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-bootstrap"></i>
+                <i class="fab fa-html5" title="HTML"></i>
+                <i class="fab fa-css3-alt" title="CSS"></i>
+                <i class="fab fa-bootstrap" title="Bootstrap"></i>
               </div>
               <p class="mb-5 text-muted project-description">
-                My first responsive website, created for the SheCodes Responsive
-                certification. The project required me to develop a deeper
-                understanding of Bootstrap flexbox.
+                My first responsive, static website; created for the SheCodes
+                Responsive certification. The project required me to develop a
+                deeper understanding of Bootstrap flexbox.
               </p>
             </div>
           </div>
@@ -170,20 +197,33 @@
   </body>
   <footer class="portfolio-footer">
     <div class="d-flex justify-content-center">
-      <a href="mailto:alex.v.s@live.com" class="email-link hover-link mt-5 mb-5"
+      <a
+        href="mailto:alex.v.s@live.com"
+        class="email-link hover-link mt-5 mb-5"
+        title="Email Alexandra"
         >alex.v.s@live.com
       </a>
     </div>
     <div class="pp-social-links d-flex justify-content-center mb-5">
-      <a href="https://github.com/alexandra-vs" target="_blank">
+      <a
+        href="https://github.com/alexandra-vs"
+        target="_blank"
+        title="GitHub Profile"
+      >
         <i class="fab fa-github"></i>
       </a>
       <a
         href="https://linkedin.com/in/alexandra-velasco-svoboda"
         target="_blank"
+        title="LinkedIn Profile"
       >
         <i class="fab fa-linkedin"></i>
       </a>
     </div>
+    <small>
+      <p class="text-center mt-4">
+        This project was designed and coded by Alexandra Velasco-Svoboda
+      </p>
+    </small>
   </footer>
 </html>

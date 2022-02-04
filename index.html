@@ -32,7 +32,8 @@
 
     <link rel="stylesheet" href="/styles/portfolio.css" />
 
-    <title>Alexandra Velasco-Svoboda</title>
+    <title>Front-end developer - Alexandra Velasco-Svoboda</title>
+    <meta name="description" content="Alexandra is a front-end engineer based in Melbourne and Berlin">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <div class="external-links">
@@ -40,6 +41,8 @@
             class="navbar-brand"
             href="https://github.com/alexandra-vs"
             target="_blank"
+            title="GitHub Profile"
+            alt="GitHub Profile"
           >
             <i class="fab fa-github"></i>
           </a>
@@ -47,6 +50,8 @@
             class="navbar-brand "
             href="https://linkedin.com/in/alexandra-velasco-svoboda"
             target="_blank"
+            title="LinkedIn Profile"
+            alt="LinkedIn Profile"
           >
             <i class="fab fa-linkedin"></i>
           </a>
@@ -69,16 +74,17 @@
         >
           <ul class="navbar-nav text-end">
             <li class="nav-item">
-              <a class="nav-link hover-link-black active" aria-current="page" href="/">Home</a>
+              <a class="nav-link hover-link-black active" title="Homepage"
+              aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-link-black" href="/about.html">About</a>
+              <a class="nav-link hover-link-black" title="About Alexandra" href="/about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-link-black" href="/work.html">Work</a>
+              <a class="nav-link hover-link-black" title="Alexandra's Portfolio" href="/work.html">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover-link-black" href="/contact.html">Contact</a>
+              <a class="nav-link hover-link-black" title="Contact Alexandra" href="/contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -93,7 +99,7 @@
           I'm a front-end developer based in Berlin and Melbourne 🦘
         </h3>
         <div>
-          <a href="/contact.html" class="btn btn-branding hover-link button mt-4">GET IN TOUCH!</a>
+          <a href="/contact.html" class="btn btn-branding hover-link button mt-4" title="Contact Alexandra">GET IN TOUCH!</a>
         </div>
       </div>
       <div class="container homepage-projects">
@@ -103,10 +109,10 @@
               Featured Project: Responsive Weather App
             </h2>
             <div class="icons mb-4">
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-bootstrap"></i>
-              <i class="fab fa-js-square"></i>
+              <i class="fab fa-html5" title="HTML"></i>
+              <i class="fab fa-css3-alt" title="CSS"></i>
+              <i class="fab fa-bootstrap" title="Bootstrap"></i>
+              <i class="fab fa-js-square" title="Javascript"></i>
             </div>
           </div>
           <div class="col-sm-6">
@@ -115,6 +121,7 @@
                 <img
                   src="/images/weather-app-cold.jpg"
                   class="img-fluid rounded shadow p-2 border"
+                  alt="Weather App Preview - Cold"
                 />
               </div>
             </div>
@@ -125,6 +132,7 @@
                 <img
                   src="/images/weatherapp.jpg"
                   class="img-fluid rounded shadow p-2 border"
+                  alt="Weather App Preview - Warm"
                 />
               </div>
             </div>
@@ -147,20 +155,25 @@
   </body>
   <footer class="homepage-footer">
     <div class="d-flex justify-content-center ">
-      <a href="mailto:alex.v.s@live.com" class="email-link hover-link mt-5 mb-5"
+      <a href="mailto:alex.v.s@live.com" class="email-link hover-link mt-5 mb-5" title="Email Alexandra"
         >alex.v.s@live.com
       </a>
     </div>
     <div class="hp-social-links d-flex justify-content-center mb-5">
-      <a href="https://github.com/alexandra-vs" target="_blank">
+      <a href="https://github.com/alexandra-vs" target="_blank" title="GitHub Profile">
         <i class="fab fa-github"></i>
       </a>
       <a
         href="https://linkedin.com/in/alexandra-velasco-svoboda"
         target="_blank"
+        title="LinkedIn Profile"
       >
         <i class="fab fa-linkedin"></i>
       </a>
+      
     </div>
+    <small>
+      <p class="text-center mt-4">This project was designed and coded by Alexandra Velasco-Svoboda</p>
+    </small>
   </footer>
 </html>
