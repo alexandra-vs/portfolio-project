@@ -202,35 +202,37 @@ footer .pp-social-links a:hover {
   padding-bottom: 10px;
 }
 
-/* Underline effect */
-
-.hover-link::after {
-  content: "";
-  width: 0px;
-  height: 1px;
-  display: block;
-  background: white;
-  transition: 300ms;
-}
-
-.hover-link:hover::after {
-  width: 100%;
-}
-
-.hover-link-black::after {
-  content: "";
-  width: 0px;
-  height: 1px;
-  display: block;
-  background: black;
-  transition: 300ms;
-}
-
-.hover-link-black:hover::after {
-  width: 100%;
-}
-
 /* Responsive design */
+
+@media (min-width: 992px) {
+  /* Underline effect */
+
+  .hover-link::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: white;
+    transition: 300ms;
+  }
+
+  .hover-link:hover::after {
+    width: 100%;
+  }
+
+  .hover-link-black::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
+
+  .hover-link-black:hover::after {
+    width: 100%;
+  }
+}
 
 @media screen and (max-height: 300px) {
   ul {
