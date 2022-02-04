@@ -17,7 +17,6 @@
 
 /*Navbar */
 .navbar {
-  background-color: transparent !important;
   font-family: var(--secondary-font);
   font-size: 15px;
   font-weight: bold;
@@ -60,7 +59,6 @@
   background-color: var(--secondary-color);
   color: white;
   padding: 10px;
-
   font-family: var(--secondary-font);
 }
 .project {
@@ -274,4 +272,12 @@ footer .pp-social-links a:hover {
   .fab {
     font-size: 20px;
   }
+}
+
+.button:hover,
+.button:link,
+.button:active,
+.button:visited {
+  text-decoration: none;
+  color: white;
 }
