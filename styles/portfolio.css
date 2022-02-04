@@ -170,6 +170,17 @@ footer .ap-social-links a:hover {
   padding-bottom: 10px;
 }
 
+.github-referral {
+  color: white;
+  text-decoration: none;
+}
+
+.github-link:hover,
+.github-link {
+  color: white;
+  text-decoration: underline;
+}
+
 /* Portfolio footer */
 footer .pp-social-links a {
   margin: 0 20px;
