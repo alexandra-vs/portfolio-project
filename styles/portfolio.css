@@ -110,7 +110,7 @@
 /*Contact */
 .contact-container {
   background-color: var(--quinary-color);
-  padding: 160px 20px;
+  padding: 160px 20px 200px 20px;
   text-align: center;
 }
 
@@ -123,19 +123,15 @@ h4 {
   text-align: center;
 }
 
-/*Footer */
+/*Footers */
+/* Homepage footer */
 footer .email-link {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 22px;
 }
 
-footer .email-link:hover {
-  color: var(--primary-color);
-  transition: all 150ms ease-in-out;
-}
-
-footer .social-links a {
+footer .hp-social-links a {
   margin: 0 20px;
   color: white;
   background-color: var(--primary-color);
@@ -145,16 +141,98 @@ footer .social-links a {
   border-radius: 50%;
 }
 
-footer .social-links a:hover {
+footer .hp-social-links a:hover {
   color: var(--primary-color);
   background-color: white;
 }
 
 .homepage-footer {
   background: var(--primary-color);
+  padding-bottom: 10px;
+}
+
+/* About footer */
+footer .ap-social-links a {
+  margin: 0 20px;
+  color: white;
+  background-color: var(--tertiary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
+  border-radius: 50%;
+}
+
+footer .ap-social-links a:hover {
+  color: var(--tertiary-color);
+  background-color: white;
+}
+
+.about-footer {
+  background: var(--tertiary-color);
+  padding-bottom: 10px;
+}
+
+/* Portfolio footer */
+footer .pp-social-links a {
+  margin: 0 20px;
+  color: white;
+  background-color: var(--quaternary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
+  border-radius: 50%;
+}
+
+footer .pp-social-links a:hover {
+  color: var(--quaternary-color);
+  background-color: white;
+}
+
+.portfolio-footer {
+  background: var(--quaternary-color);
+  padding-bottom: 10px;
 }
 
 /* Underline effect */
+
+.hover-link::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: white;
+  transition: 300ms;
+}
+
+.hover-link:hover::after {
+  width: 100%;
+}
+
+.hover-link-black::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+.hover-link-black:hover::after {
+  width: 100%;
+}
+
+/* Responsive design */
+
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+
+.hover-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
 @media (max-width: 576px) {
   .homepage-hero,
