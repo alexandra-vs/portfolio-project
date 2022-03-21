@@ -202,6 +202,12 @@ footer .pp-social-links a:hover {
   padding-bottom: 10px;
 }
 
+/* Contact footer */
+.contact-footer {
+  background-color: var(--quinary-color);
+  padding: 20px;
+}
+
 /* Responsive design */
 
 @media (min-width: 992px) {
